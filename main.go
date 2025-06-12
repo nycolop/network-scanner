@@ -11,6 +11,7 @@ import (
 func main() {
 	interfaces, err := net.Interfaces()
 
+	// Interface scanning
 	fmt.Println("Running network scan...")
 	fmt.Println()
 
